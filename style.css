@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+:root {
+    --base03:    #002b36;
+    --base02:    #073642;
+    --base01:    #586e75;
+    --base00:    #657b83;
+    --base0:     #839496;
+    --base1:     #93a1a1;
+    --base2:     #073642;
+    --base3:     #002b36;
+    --yellow:    #FFBF00;
+    --orange:    #cb4b16;
+    --red:       #dc322f;
+    --magenta:   #d33682;
+    --violet:    #6c71c4;
+    --blue:      #268bd2;
+    --cyan:      #2aa198;
+    --green:     #859900;
+    --brown:    #6f4e37;
+    --orange2:  #f1cf89;
+    --blue2:    #268bd2;
+
+    --solarizedbg: var(--base02);
+    --solarizedfg: var(--base0);
+}
+body {
+    font-family: 'Electrolize', sans-serif;
+    background-color: var(--solarizedbg);
+    color: var(--solarizedfg);
+}
+.dropbtn {
+    background-color: #3e8e41;
+    color: black;
+    padding: 1rem;
+    font-size: 16px;
+    border: 5px var(--base00);
+    margin-right: 5px;
+    float: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1rem;
+}
+.dropdown-content a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    border: 5px var(--base00);
+}
+  .dropdown-content a:hover {background-color:darkgreen;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;} 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--yellow);
+}
+header {
+    display: block;
+}
+li {
+    color: white;
+}
+#image1 {
+    background-image: url("bilder/UTE/mountain2.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#image2 {
+    background-image: url("bilder/UTE/mountain.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#image3 {
+    background-image: url(" bilder/UTE/snowy_street.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#image4 {
+    background-image: url("bilder/UTE/28_container1.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #3e8e41;
+    float:left;
+    display: flex;
+    margin-right: 10px;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.topnav a:hover {
+    background-color:darkgreen;
+    color: black;
+}
+#h1 {
+    color: black;
+} 
+#img {
+    float: left;
+    border-radius: 30%;
+    display: flex;
+}
