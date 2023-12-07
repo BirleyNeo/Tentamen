@@ -142,3 +142,33 @@ li {
 br {
     margin: 20px;
 }
+
+.avsnitt {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.avsnitt-text, .avsnitt-pic {
+    width: 100%;
+}
+
+.avsnitt-pic {
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .avsnitt-text {
+        flex: 0 1 65%;
+        width: auto;
+    }
+    .avsnitt-pic {
+        flex: 0 1 35%;
+        width: auto;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        object-fit: contain;
+    }
+}
