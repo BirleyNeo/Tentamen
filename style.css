@@ -129,3 +129,16 @@ li {
     border-radius: 30%;
     display: flex;
 }
+#article1 {
+    font-size: 1em;
+}
+
+.text-output { 
+    margin-top: 10px; 
+    padding: 10px; 
+    border: 1px dashed #333; 
+    min-height: 50px; 
+}
+br {
+    margin: 20px;
+}
