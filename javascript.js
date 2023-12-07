@@ -38,4 +38,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById("font").addEventListener ("click", () => {
         document.getElementById ("idsecondbox").style.fontFamily = "monospace";
     });
+    document.getElementById("fontfarge").addEventListener ("click", () => {
+        document.getElementById ("idsecondbox").style.color = "white";
+    });
 });
